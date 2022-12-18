@@ -1,0 +1,371 @@
+body {
+    margin: 0;
+    background-color: #F5F5F5;
+}
+*{
+    font-family: 'Cairo';
+    box-sizing: border-box}
+    .mySlides1, .mySlides2 {display: none}
+    img {vertical-align: middle;
+}
+
+.sider {
+    width: 300px;
+    height: 1080px;
+    background-color: #011013;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;
+    right: 0px;
+    text-align: center;
+    color: white;
+    top: 0px;
+}
+
+.sider .aside {
+    margin-top: 91px;
+}
+
+.aling {
+    margin-top: 70px;
+}
+
+.aling .item {
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.aling div i {
+    font-size: 30px;
+    color: #414040;
+    padding: 0 5px;
+}
+
+.teal {
+    color: white;
+    background-color: #011013;
+    height: 120px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0;
+    width: 90vw;
+    text-align: center;
+    z-index: 1;
+}
+.nav h5 {
+    font-size: 2.2vw;
+    color: white;
+    margin-top: 43px;
+}
+#img{
+    width: 70px;
+}
+.conter {
+    margin-top: 28px;
+}
+.but{
+    border: 4px solid white;
+    background-color: #000;
+    color: white;
+    height: 60px;
+    width: 15vw;
+    font-size: 2vw;
+    margin-top: 30px;
+}
+.w3-teal {
+    color: #faf9f9!important;
+    background-color: #050505!important;
+    font-weight: bold;
+}
+.content {
+    direction: rtl;
+    margin: 120px 290px 0px 0px !important;
+ }
+.cont {
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+}
+ .content img {
+    padding: 0 40px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ .content h1 {
+    font-size: 3vw;
+    padding: 9px 50px;
+    font-weight: 700;
+}
+
+.text {
+    position: relative;
+    bottom: 161px;
+    color: white;
+    background: rgba(0,0,0,0.6);
+    padding: 2px 30px 5px;
+    margin: 0 44px;
+}
+.text .parOne {
+    font-size: 2.3vw;
+}
+.text .parTwo {
+    font-size: 1.7vw;
+}
+.contentTwo {
+    margin: 40px 290px 0px 0px !important;
+ }
+.head {
+    direction: rtl;
+    font-size: 3vw;
+    padding: 9px 50px;
+    font-weight: 700;
+}
+.contentTwo .img {
+    width: 100%;
+    margin-left: 44px;
+    height: 500px;
+}
+.textTwo {
+    background-color: #000;
+    padding: 30px 20px;
+    color: white;
+}
+.textTwo h1 {
+    font-size: 2.3vw;
+}
+.textTwo p {
+    font-size: 1.7vw;
+}
+.butTwo{
+    border: 4px solid white;
+    background-color: #000;
+    color: white;
+    height: 60px;
+    width: 15vw;
+    font-size: 2vw;
+    margin-top: 15px;
+}
+.contentThree {
+    background-image: linear-gradient(145deg ,#EB8C25,#542E00);
+    color: white;
+    padding: 30px 30px;
+    margin-top: 60px;
+    direction: rtl;
+    margin: 40px 290px 0px 0px !important;
+}
+.butThree{
+    border: 2px solid #FEFD6C;
+    background-color: #EB8C25;
+    color: white;
+    height: 80px;
+    width: 18vw;
+    font-size: 2.7vw;
+    margin-top: 15px;
+}
+.contentTwo .imgTwo {
+    width: 100%;
+    padding-right: 44px;
+    height: 600px;
+}
+.footer {
+    font-size: 1.7vw !important;
+}
+@media (max-width : 2000px) {
+    .content {
+        height: 100%;
+    }
+    .text {
+        margin: 0 44px;
+    }
+}
+@media (max-width : 1366px) {
+    .content {
+        direction: rtl;
+        margin: 120px 290px 0px 0px !important;
+        height: 700px;
+     }
+    .text {
+        margin: 0 44px;
+    }
+}
+@media (max-width : 1365px) {
+    .sider {
+        display: none;
+    }
+    .teal {
+        width: 100vw;
+        display: flex;
+        margin: auto;
+    }
+    .but {
+        margin-top: 32px;
+        height: 64px;
+        font-size: 3vw;
+    }
+    .nav h5 {
+        margin-top: 58px;
+    }
+    .content {
+        margin: 120px 0px 0px 0px !important;
+        height: 100%;
+     }
+     .text {
+         bottom: 139px;
+        margin: 0 44px ;
+
+    }
+    .parOne {
+        font-size: 3vw !important;
+    }
+    .parTwo {
+        font-size: 2.5vw !important;
+    }
+    .contentTwo {
+        margin-right: 0 !important;
+    }
+    .butTwo {
+        height: 77px;
+        width: 24vw;
+        font-size: 3vw;
+    }
+    .contentTwo .img {
+        height: 100%;
+    }
+    .textTwo h1 {
+        font-size: 4vw;
+    }
+    .textTwo p {
+        font-size: 2.4vw;
+    }
+    .contentThree {
+        margin-right: 0 !important;
+    }
+    .contentThree h1{
+        font-size: 4.2vw !important;
+    }
+    .contentThree p{
+        font-size: 2.2vw !important;
+    }
+    .butThree {
+        font-size: 3.7vw;
+    }
+    .contentTwo .imgTwo {
+        height: 100%;
+    }
+}
+@media (max-width : 768px) {
+    .content h1 {
+        font-size: 5vw;
+    }
+    .text {
+        bottom: 11px;
+        background: #9e9e9e;
+        padding: 12px 10px 5px;
+        margin: 0px 40px 20px;
+    }
+    .parOne {
+        font-size: 4vw !important;
+    }
+    .parTwo {
+        font-size: 3.5vw !important;
+    }
+    .head {
+        font-size: 5vw;
+    }
+    
+    .contentTwo .img {
+        margin-left: 0 !important;
+     }
+    .textTwo h1 {
+        font-size: 6vw;
+    }
+    .textTwo p {
+        font-size: 4.4vw;
+    }
+    .butTwo {
+        width: 54vw;
+        font-size: 5.3vw;
+    }
+    .contentThree h1 {
+        font-size: 4vw !important;
+    }
+    .contentThree p {
+        font-size: 3vw !important;
+        margin-bottom: 30px;
+    }
+    .butThree {
+        width: 39vw;
+        font-size: 5vw;
+        margin-top: 15px;
+        display: block;
+        margin: auto;
+    }
+    .contentTwo .imgTwo {
+        padding-right: 0;
+    }
+}
+@media (max-width : 576px) {
+    .but {
+        display: none;
+    }
+    #img {
+        width: 62px;
+        margin-top: 0;
+    }
+    .nav h5 {
+        font-size: 4.4vw;
+        display: flex;
+        margin: auto;
+    }
+    .conter {
+        margin-top: 9px;
+    }
+    .but{
+        font-size: 2.5vw;
+    }
+    .text  {
+        text-align: center;
+    }
+    .parOne {
+        font-size: 5.3vw !important;
+    }
+    .parTwo {
+        font-size: 5vw !important;
+    }
+    .textTwo h1 {
+        font-size: 6.3vw;
+    }
+    .textTwo p {
+        font-size: 5vw;
+    }
+    .contentThree h1 {
+        font-size: 5.5vw !important;
+        text-align: center;
+    }
+    .contentThree p {
+        font-size: 3.4vw !important;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .butThree {
+        width: 51vw;
+        height: 61px;
+        font-size: 7vw;
+        margin-top: 15px;
+        display: block;
+        margin: auto;
+    }
+    .footer {
+        font-size: 3vw;
+    }
+}
